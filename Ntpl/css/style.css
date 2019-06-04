@@ -1,0 +1,122 @@
+/**
+ * Font families
+ *     font-family:'Got725-BoldA';
+ *     font-family:'Got720-RomanB;
+ *     font-family:'Got720-lightB';
+ *     font-family:'Cabin';
+ */
+
+/**
+ * General
+ */
+@font-face {
+  font-family: 'Got725-BoldA';
+  src: url('../fonts/Got725-BoldA.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Got725-BoldA.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Got725-BoldA.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Got725-BoldA.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Got725-BoldA.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Got725-BoldA.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Got720-RomanB';
+  src: url('../fonts/Got720-RomanB.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Got720-RomanB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Got720-RomanB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Got720-RomanB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Got720-RomanB.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Got720-RomanB.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Got720-lightB';
+  src: url('../fonts/Got720-lightB.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Got720-lightB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Got720-lightB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Got720-lightB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Got720-lightB.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Got720-lightB.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {opacity:1;font-family:'Scala Sans';font-size:16px;background:#fff;color:#1a1a1a;transition:background-color 0.6s;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; overflow-x: hidden;}
+
+.clearfix:before,
+.clearfix:after {content:' ';display:table;}
+.clearfix:after {clear:both;}
+
+a {text-decoration:none;}
+.menu-section { position: fixed; top: 20px; left: 20px; right: 20px; z-index: 2; }
+section.section-1 { background-color: #000; }
+section.section-1 .slide{ padding-top: 100px; }
+.slider-section {}
+.slider-section .slider-title { font-size: 80px; color: #fff; font-family: 'Got725-BoldA'; padding-left: 10%; }
+.slider-section .slide-sub-text { font-size: 16px; color: #7e7e7e; font-family: 'Got720-lightB'; padding-left: 10%; }
+.slider-section .slider-images { width: 100%;}
+.slider-section .slider-images img {max-width: 100%;}
+.section-1 .carousel-control-prev {right: 50px;left: auto;}
+.section-1 .carousel-control-prev::after{transform: rotate(44deg);top: -1px;left: -9px;}
+.section-1 .carousel-control-prev::before{transform: rotate(-51deg);top: -9px;left: 7px;}
+.section-1 .carousel-control-next {}
+.section-1 .carousel-control-next::after{transform: rotate(-44deg);top: -1px;left: -6px;}
+.section-1 .carousel-control-next::before{transform: rotate(51deg);top: -9px;left: 11px;}
+.section-1 .carousel-control-prev,
+.section-1 .carousel-control-next {text-align: center; opacity: 1;top: auto;border-radius: 20px;border: solid 1px transparent;font-size: 22px;width: 35px;height: 35px;display: inline-block;font-weight: bold;bottom: 30px;}
+.section-1 .carousel-control-prev:hover,
+.section-1 .carousel-control-next:hover {border:solid 1px #ccc}
+.section-1 .carousel-control-prev::before,
+.section-1 .carousel-control-prev::after,
+.section-1 .carousel-control-next::before,
+.section-1 .carousel-control-next::after {content: "";width: 12px;height: 3px;background-color: #fff;display: inline-block;position: relative;}
+
+.slider-link {text-align: right;position: relative;color: #159ed6;text-decoration: none;font-size: 18px;font-family:'Got720-RomanB'; margin:20px 0; display: inline-block;}
+.slider-link:hover {color:#159ed6; }
+.slider-link::after {content: "";width: 30px;height: 2px;background-color: #159ed6;position: absolute;left: -50px;display: inline-block;top: 15px;}
+
+
+.section-2 {}
+.section-2 .about-content {padding-left: 2%; }
+.section-2 .about-content .about-title { font-size: 80px; color: #282828; font-family: 'Got720-RomanB';}
+.section-2 .about-content .about-text { font-size: 16px; color: #777777;font-family: 'Got720-RomanB';}
+
+
+.section-3 {}
+.section-3 .titles {color: #212121;font-family: 'Got720-lightB'; font-size: 80px;}
+.section-3 .titles span {color: #fff;font-family: 'Got725-BoldA';}
+.section-3 .content-box {border: solid 5px #fff; position: relative;}
+.section-3 .content-box img { max-width: 100%; max-height: 450px;}
+.section-3 .content-box .image-title{color: #fff;font-family: 'Got725-BoldA'; font-size: 38px; position:relative; z-index: 1; padding: 5px 10px; position: absolute; bottom: 0; left: 0}
+.section-3 .content-box:after {content: ""; position: absolute; width: 100%; left: 0; height: 100%; top: 0; background-color: rgba(21,158,214,0.3); z-index: 0;}
+.section-3 .content-box:hover:after {content: ""; display: none;}
+.section-3 .discover-link {font-family: 'Got720-lightB';font-size: 18px;position: relative;opacity: 0.5;color: #fff;padding-right: 20px;}
+.section-3 .discover-link:hover {opacity: 1; text-decoration: none;}
+.section-3 .discover-link::after {content: "";width: 8px;height: 8px;position: absolute;top: 9px;right: -1px;border-right: solid 2px #fff;border-bottom: solid 2px #fff;transform: rotate(-45deg);}
+.section-3 .discover-link::before {content: "";width: 15px;height: 2px;background-color: #fff;display: inline-block;position: absolute;top: 12px;right: 0;}
+
+.section-4 {}
+.section-4 .titles {color: #212121;font-family: 'Got720-lightB'; font-size: 80px;}
+.section-4 .titles span {color: #fff;font-family: 'Got725-BoldA';}
+
+
+
+/* RETINA */
+@media only screen and(min--moz-device-pixel-ratio: 1.3),(-o-min-device-pixel-ratio: 2.6/2),(-webkit-min-device-pixel-ratio: 1.3),(min-device-pixel-ratio: 1.3),(min-resolution: 1.3dppx) {
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width:1679px) {
+}
+
+@media only screen and (max-width:1025px) {
+}
+
+@media only screen and (max-width:1023px) {
+}
+
+@media only screen and (max-width:767px) {
+}
+
+@media only screen and (max-width:719px) {
+}
+
+@media only screen and (max-width:479px) {
+
+}
