@@ -94,7 +94,11 @@ section.section-1 .slide{ padding-top: 100px; }
 .section-4 {}
 .section-4 .titles {color: #212121;font-family: 'Got720-lightB'; font-size: 80px;}
 .section-4 .titles span {color: #fff;font-family: 'Got725-BoldA';}
-
+.member-box {width: 100%;}
+.member-box .member-img { width: 100%; border-radius: 100%; display: inline-block; overflow: hidden;}
+.member-box .member-img img {max-width: 100%; max-height: 100%;}
+.member-box .member-name {font-family: 'Got725-BoldA'; font-size: 18px; color: #000; text-align: center;}
+.member-box .member-text {font-family: 'Got720-lightB'; font-size: 16px; color: #5d5d5d; text-align: center;}
 
 
 /* RETINA */
