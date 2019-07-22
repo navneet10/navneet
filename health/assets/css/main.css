@@ -6,8 +6,8 @@ html {
 body {
   background: #fff;
   font-size: 14px;
-  font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -22,8 +22,7 @@ img {max-width: 100%;}
 h1, h2, h3, h4 {
   font-size: 38px;
   color: #585b60;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -42,8 +41,7 @@ a a:focus {
 }
 
 p {
-  font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   margin: 0px;
   font-size: 14px;
 }
@@ -303,16 +301,18 @@ hr {
 .text-wrapper {
   height: 100%;
   display: table;
-  padding-left: 140px;
+  padding-left: 110px;
 }
-
+.text-wrapper h2 {
+  font-weight: 400;
+}
 .text-wrapper > div {
   vertical-align: middle;
   display: table-cell;
 }
 
 .feature-thumb {
-  margin-right: -60px;
+  margin-right: -30px;
 }
 
 .title-hl {
@@ -427,10 +427,18 @@ hr {
 
 .services-item .services-content {width: calc(100% - 110px);display: inline-block; vertical-align: middle;}
 
-
+.section-header {
+  padding-right: 20px;
+}
+#approach .services-item {
+    padding: 55px 15px 15px 15px;
+  }
+  #approach .services-item ul li{
+    font-weight: 500;
+  }
 .services-item .services-content h3 {
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -723,6 +731,9 @@ hr {
     outline: none;
     background: #f8f9fa;
   }
+  #contact::after {
+    background-color:transparent !important;
+  }
 }
 
 /* ==========================================================================
@@ -736,7 +747,7 @@ hr {
   padding-top:100px;
 }
 .hero-area-bg .sli-title {
-    font-size: 50px;
+    font-size: 90px;
     color: #da99a5;
     padding-bottom: 50px;
     position: relative;
@@ -841,13 +852,19 @@ hr {
 .form-control {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 0px;
   font-size: 14px;
-  border-radius: 30px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  padding: 8px 20px;
-  border: 1px solid #abacae;
+  padding: 8px 5px;
+  border: 0px;
+  border-bottom: 1px solid #abacae;
+  color: #e2506c !important;
+  background-color: transparent;
+}
+.form-control::placeholder{
+  color: #e2506c !important;
 }
 
 .form-control:focus {
@@ -857,7 +874,8 @@ hr {
 }
 
 textarea {
-  border-radius: 4px !important;
+  border-radius: 0px !important;
+  background-color: transparent;
 }
 
 .form-control:focus {
@@ -870,8 +888,9 @@ textarea {
 }
 
 .contact-form-area h2 {
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 34px;
+  color: #5682bd;
+  font-weight: 400;
 }
 
 .contact-right-area {
@@ -884,38 +903,41 @@ textarea {
 
 .contact-right .single-contact {
   margin: 20px 0px;
-  padding: 3px 55px;
+  padding: 3px 0px;
   position: relative;
   color: #abacae;
 }
 
-.contact-right .single-contact p {
-  margin-bottom: 5px;
-}
-
+.contact-right .single-contact p,
 .contact-right .single-contact p a {
-  color: #abacae;
+  color: #717172;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .contact-right .contact-icon {
-  background: #137ED9;
-  color: #fff;
-  border-radius: 50%;
+  color: #e2506c;
   font-size: 20px;
-  height: 40px;
-  left: 0;
-  padding-top: 8px;
-  position: absolute;
+  width: 100%;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.submit-button .btn-common {
+  background-color: #e2506c;
+  height: 90px;
+  width: 90px;
+  color: #fff;
   text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 40px;
+  line-height: 24px;
+  border-radius: 100%;
+  padding: 0px;
 }
 
 #contact {
   position: relative;
   overflow: hidden;
+  background-color: #f3f5f2;
+  z-index: 1;
 }
 
 #contact #contactForm {
@@ -931,16 +953,17 @@ textarea {
   color: #d9534f;
 }
 
-#conatiner-map {
-  margin-top: 30px;
-  text-align: center;
+#contact::after {
+  content: "";
+  position: absolute;
+  width: 900px;
+  height: 900px;
   background-color: #fff;
-  height: 480px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: 101;
-  width: 100%;
+  border-radius: 100%;
+  display: inline-block;
+  top: -30%;
+  right: -6%;
+  z-index: -1;
 }
 
 .h3 {
