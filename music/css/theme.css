@@ -141,7 +141,7 @@ img {
 	}
 }
 @keyframes scaleout {
-	0% { 
+	0% {
 		transform: scale(0.0);
 		-webkit-transform: scale(0.0);
 	} 100% {
@@ -224,7 +224,7 @@ body.boxed #header.header-fluid .container {
 }
 @media (max-width: 768px) {
 	/* header no move on small devices */
-	.show-hide-on-scroll { 
+	.show-hide-on-scroll {
 		position: absolute !important;
 	}
 	.show-hide-on-scroll.fly-up {
@@ -288,7 +288,7 @@ body.boxed #header.header-fluid .container {
 	background-repeat: no-repeat;
 	background-position: top center;
 }
-#header.transparent.header-shadow:after { /* if header is transparent */ 
+#header.transparent.header-shadow:after { /* if header is transparent */
 	display: none;
 }
 #header.transparent.header-filled.header-shadow:after { /* if header is filled */
@@ -368,7 +368,7 @@ body.boxed #header.header-fluid .container {
 		line-height: 65px;
 		font-size: 26px;
 	}
-	#header.header-filled .navbar-nav > li > a, 
+	#header.header-filled .navbar-nav > li > a,
 	#header.header-filled .navbar-nav .nav-link-separator {
 		padding-top: 24px !important;
 		padding-bottom: 24px !important;
@@ -411,7 +411,7 @@ body.boxed #header.header-fluid .container {
 	font-weight: 500;
 	font-size: 32px;
 	color: #545A5F;
-	line-height: 68px; 
+	line-height: 68px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -428,22 +428,22 @@ body.boxed #header.header-fluid .container {
 }
 
 /* If header is transparent */
-#header.transparent .logo h1 {  
+#header.transparent .logo h1 {
 	color: #FFF;
-} 
+}
 
 /* If header is filled */
-#header.header-filled .logo h1 {  
+#header.header-filled .logo h1 {
 	color: #545A5F;
 }
 
 /* If header is dark or custom background color used */
-#header.header-dark .logo h1, 
-#header.header-dark.transparent .logo h1, 
+#header.header-dark .logo h1,
+#header.header-dark.transparent .logo h1,
 #header.header-dark.semi-transparent .logo h1,
-#header.header-color .logo h1, 
-#header.header-color.transparent .logo h1, 
-#header.header-color.semi-transparent .logo h1 {  
+#header.header-color .logo h1,
+#header.header-color.transparent .logo h1,
+#header.header-color.semi-transparent .logo h1 {
 	color: #FFF;
 }
 
@@ -485,20 +485,20 @@ body.boxed #header.header-fluid .container {
 }
 .navbar-nav > li:last-child > a {
 	margin-right: 0;
-} 
-.nav .open > a, 
-.nav .open > a:focus, 
+}
+.nav .open > a,
+.nav .open > a:focus,
 .nav .open > a:hover {
 	background-color: transparent;
 	border-color: transparent;
 }
-.nav > li > a:focus, 
-.nav > li > a:hover, 
-.nav > .open > a, 
-.nav > .open > a:focus, 
+.nav > li > a:focus,
+.nav > li > a:hover,
+.nav > .open > a,
+.nav > .open > a:focus,
 .nav > .open > a:hover,
-.nav > .active > a, 
-.nav > .active > a:focus, 
+.nav > .active > a,
+.nav > .active > a:focus,
 .nav > .active > a:hover {
 	background-color: transparent;
 	border-color: transparent;
@@ -532,7 +532,7 @@ body.boxed #header.header-fluid .container {
 }
 
 /* If navbar uppercase letters are allowed */
-.nav-uppercase .navbar-nav > li > a { 
+.nav-uppercase .navbar-nav > li > a {
 	text-transform: uppercase;
 	font-size: 13px;
 }
@@ -557,7 +557,7 @@ body.boxed #header.header-fluid .container {
 }
 
 /* If header is filled */
-#header.header-filled .navbar-nav > li > a, 
+#header.header-filled .navbar-nav > li > a,
 #header.header-filled.transparent .navbar-nav > li > a {
 	color: #545A5F;
 }
@@ -567,20 +567,20 @@ body.boxed #header.header-fluid .container {
 }
 
 /* if header is dark */
-#header.header-dark .navbar-nav > li > a,  
+#header.header-dark .navbar-nav > li > a,
 #header.header-dark.header-filled .navbar-nav > li > a {
 	color: #BBB;
 }
-#header.header-dark .nav > li > a:focus, 
-#header.header-dark .nav > li > a:hover, 
-#header.header-dark .nav > .open > a, 
-#header.header-dark .nav > .open > a:focus, 
+#header.header-dark .nav > li > a:focus,
+#header.header-dark .nav > li > a:hover,
+#header.header-dark .nav > .open > a,
+#header.header-dark .nav > .open > a:focus,
 #header.header-dark .nav > .open > a:hover,
-#header.header-dark .nav > .open > a, 
-#header.header-dark .nav > .open > a:focus, 
+#header.header-dark .nav > .open > a,
+#header.header-dark .nav > .open > a:focus,
 #header.header-dark .nav > .open > a:hover,
-#header.header-dark .nav > .active > a, 
-#header.header-dark .nav > .active > a:focus, 
+#header.header-dark .nav > .active > a,
+#header.header-dark .nav > .active > a:focus,
 #header.header-dark .nav > .active > a:hover {
 	color: #f7465b;
 }
@@ -589,44 +589,44 @@ body.boxed #header.header-fluid .container {
 	color: #ABABAB;
 }
 
-/* if header is colored */ 
-#header.header-color .navbar-nav > li > a, 
+/* if header is colored */
+#header.header-color .navbar-nav > li > a,
 #header.header-color.header-filled .navbar-nav > li > a {
 	color: #FFF;
 }
 #header.header-color .navbar-nav > li > a:hover,
-#header.header-color .navbar-nav > li.active > a, 
-#header.header-color .navbar-nav > li.active > a:focus, 
+#header.header-color .navbar-nav > li.active > a,
+#header.header-color .navbar-nav > li.active > a:focus,
 #header.header-color .navbar-nav > li.active > a:hover,
-#header.header-color .navbar-nav > li > a:focus, 
-#header.header-color .navbar-nav > .open > a, 
+#header.header-color .navbar-nav > li > a:focus,
+#header.header-color .navbar-nav > .open > a,
 #header.header-color .navbar-nav > .open > a:focus {
 	color: #000 !important;
 }
 #header.header-color.header-filled .navbar-nav > li > a:hover,
-#header.header-color.header-filled .navbar-nav > li.active > a, 
-#header.header-color.header-filled .navbar-nav > li.active > a:focus, 
+#header.header-color.header-filled .navbar-nav > li.active > a,
+#header.header-color.header-filled .navbar-nav > li.active > a:focus,
 #header.header-color.header-filled .navbar-nav > li.active > a:hover,
-#header.header-color.header-filled .navbar-nav > li > a:focus, 
-#header.header-color.header-filled .navbar-nav > .open > a, 
+#header.header-color.header-filled .navbar-nav > li > a:focus,
+#header.header-color.header-filled .navbar-nav > .open > a,
 #header.header-color.header-filled .navbar-nav > .open > a:focus {
 	color: #000 !important;
 }
 #header.header-color.transparent .navbar-nav > li > a:hover,
-#header.header-color.transparent .navbar-nav > li.active > a, 
-#header.header-color.transparent .navbar-nav > li.active > a:focus, 
+#header.header-color.transparent .navbar-nav > li.active > a,
+#header.header-color.transparent .navbar-nav > li.active > a:focus,
 #header.header-color.transparent .navbar-nav > li.active > a:hover,
-#header.header-color.transparent .navbar-nav > li > a:focus, 
-#header.header-color.transparent .navbar-nav > .open > a, 
+#header.header-color.transparent .navbar-nav > li > a:focus,
+#header.header-color.transparent .navbar-nav > .open > a,
 #header.header-color.transparent .navbar-nav > .open > a:focus {
 	color: #f7465b !important;
 }
 #header.header-color.transparent.header-filled .navbar-nav > li > a:hover,
-#header.header-color.transparent.header-filled .navbar-nav > li.active > a, 
-#header.header-color.transparent.header-filled .navbar-nav > li.active > a:focus, 
+#header.header-color.transparent.header-filled .navbar-nav > li.active > a,
+#header.header-color.transparent.header-filled .navbar-nav > li.active > a:focus,
 #header.header-color.transparent.header-filled .navbar-nav > li.active > a:hover,
-#header.header-color.transparent.header-filled .navbar-nav > li > a:focus, 
-#header.header-color.transparent.header-filled .navbar-nav > .open > a, 
+#header.header-color.transparent.header-filled .navbar-nav > li > a:focus,
+#header.header-color.transparent.header-filled .navbar-nav > .open > a,
 #header.header-color.transparent.header-filled .navbar-nav > .open > a:focus {
 	color: #000 !important;
 }
@@ -636,12 +636,12 @@ body.boxed #header.header-fluid .container {
 }
 
 /* if header is transparent */
-#header.transparent .navbar-nav > li > a {  
+#header.transparent .navbar-nav > li > a {
 	color: #FFF;
 }
 
 
-/* Navbar nav pills 
+/* Navbar nav pills
 ===================== */
 .navbar-nav.nav-pills > li + li {
 	margin-left: 0;
@@ -661,16 +661,16 @@ body.boxed #header.header-fluid .container {
 	color: #fff !important;
 	border-color: #f7465b;
 }
-.navbar-nav.nav-pills > li > a:focus, 
-.navbar-nav.nav-pills > .open > a, 
+.navbar-nav.nav-pills > li > a:focus,
+.navbar-nav.nav-pills > .open > a,
 .navbar-nav.nav-pills > .open > a:focus {
 	background-color: #f7465b !important;
 	text-decoration: inherit;
 	color: #fff !important;
 	border-color: #f7465b;
 }
-.navbar-nav.nav-pills > li.active > a, 
-.navbar-nav.nav-pills > li.active > a:focus, 
+.navbar-nav.nav-pills > li.active > a,
+.navbar-nav.nav-pills > li.active > a:focus,
 .navbar-nav.nav-pills > li.active > a:hover {
 	background-color: #f7465b !important;
 	font-weight: 500;
@@ -680,12 +680,12 @@ body.boxed #header.header-fluid .container {
 }
 
 /* if header is dark */
-#header.header-dark.header-filled .navbar-nav.nav-pills > li.active > a, 
-#header.header-dark.header-filled .navbar-nav.nav-pills > li.active > a:focus, 
+#header.header-dark.header-filled .navbar-nav.nav-pills > li.active > a,
+#header.header-dark.header-filled .navbar-nav.nav-pills > li.active > a:focus,
 #header.header-dark.header-filled .navbar-nav.nav-pills > li.active > a:hover,
-#header.header-dark.header-filled .navbar-nav.nav-pills > li > a:hover, 
-#header.header-dark.header-filled .navbar-nav.nav-pills > li > a:focus, 
-#header.header-dark.header-filled .navbar-nav.nav-pills > .open > a, 
+#header.header-dark.header-filled .navbar-nav.nav-pills > li > a:hover,
+#header.header-dark.header-filled .navbar-nav.nav-pills > li > a:focus,
+#header.header-dark.header-filled .navbar-nav.nav-pills > .open > a,
 #header.header-dark.header-filled .navbar-nav.nav-pills > .open > a:focus {
 	background-color: #f7465b !important;
 	color: #FFF !important;
@@ -694,44 +694,44 @@ body.boxed #header.header-fluid .container {
 
 /* if header is colored */
 #header.header-color .navbar-nav.nav-pills > li > a:hover,
-#header.header-color .navbar-nav.nav-pills > li.active > a, 
-#header.header-color .navbar-nav.nav-pills > li.active > a:focus, 
+#header.header-color .navbar-nav.nav-pills > li.active > a,
+#header.header-color .navbar-nav.nav-pills > li.active > a:focus,
 #header.header-color .navbar-nav.nav-pills > li.active > a:hover,
-#header.header-color .navbar-nav.nav-pills > li > a:focus, 
-#header.header-color .navbar-nav.nav-pills > .open > a, 
+#header.header-color .navbar-nav.nav-pills > li > a:focus,
+#header.header-color .navbar-nav.nav-pills > .open > a,
 #header.header-color .navbar-nav.nav-pills > .open > a:focus {
 	background-color: #FFF !important;
 	color: #000 !important;
 	border-color: rgba(0, 0, 0, 0) !important;
 }
 #header.header-color.header-filled .navbar-nav.nav-pills > li > a:hover,
-#header.header-color.header-filled .navbar-nav.nav-pills > li.active > a, 
-#header.header-color.header-filled .navbar-nav.nav-pills > li.active > a:focus, 
+#header.header-color.header-filled .navbar-nav.nav-pills > li.active > a,
+#header.header-color.header-filled .navbar-nav.nav-pills > li.active > a:focus,
 #header.header-color.header-filled .navbar-nav.nav-pills > li.active > a:hover,
-#header.header-color.header-filled .navbar-nav.nav-pills > li > a:focus, 
-#header.header-color.header-filled .navbar-nav.nav-pills > .open > a, 
+#header.header-color.header-filled .navbar-nav.nav-pills > li > a:focus,
+#header.header-color.header-filled .navbar-nav.nav-pills > .open > a,
 #header.header-color.header-filled .navbar-nav.nav-pills > .open > a:focus {
 	background-color: #FFF !important;
 	color: #000 !important;
 	border-color: rgba(0, 0, 0, 0) !important;
 }
 #header.header-color.transparent .navbar-nav.nav-pills > li > a:hover,
-#header.header-color.transparent .navbar-nav.nav-pills > li.active > a, 
-#header.header-color.transparent .navbar-nav.nav-pills > li.active > a:focus, 
+#header.header-color.transparent .navbar-nav.nav-pills > li.active > a,
+#header.header-color.transparent .navbar-nav.nav-pills > li.active > a:focus,
 #header.header-color.transparent .navbar-nav.nav-pills > li.active > a:hover,
-#header.header-color.transparent .navbar-nav.nav-pills > li > a:focus, 
-#header.header-color.transparent .navbar-nav.nav-pills > .open > a, 
+#header.header-color.transparent .navbar-nav.nav-pills > li > a:focus,
+#header.header-color.transparent .navbar-nav.nav-pills > .open > a,
 #header.header-color.transparent .navbar-nav.nav-pills > .open > a:focus {
 	background-color: #f7465b !important;
 	color: #FFF !important;
 	border-color: rgba(0, 0, 0, 0) !important;
 }
 #header.header-color.transparent.header-filled .navbar-nav.nav-pills > li > a:hover,
-#header.header-color.transparent.header-filled .navbar-nav.nav-pills > li.active > a, 
-#header.header-color.transparent.header-filled .navbar-nav.nav-pills > li.active > a:focus, 
+#header.header-color.transparent.header-filled .navbar-nav.nav-pills > li.active > a,
+#header.header-color.transparent.header-filled .navbar-nav.nav-pills > li.active > a:focus,
 #header.header-color.transparent.header-filled .navbar-nav.nav-pills > li.active > a:hover,
-#header.header-color.transparent.header-filled .navbar-nav.nav-pills > li > a:focus, 
-#header.header-color.transparent.header-filled .navbar-nav.nav-pills > .open > a, 
+#header.header-color.transparent.header-filled .navbar-nav.nav-pills > li > a:focus,
+#header.header-color.transparent.header-filled .navbar-nav.nav-pills > .open > a,
 #header.header-color.transparent.header-filled .navbar-nav.nav-pills > .open > a:focus {
 	background-color: #FFF !important;
 	color: #000 !important;
@@ -739,7 +739,7 @@ body.boxed #header.header-fluid .container {
 }
 
 
-/* Navbar nav border bottom 
+/* Navbar nav border bottom
 ============================= */
 .navbar-nav.nav-border-bottom > li + li {
 	margin-left: 0;
@@ -750,18 +750,18 @@ body.boxed #header.header-fluid .container {
 	box-shadow: inset 0 -2px transparent !important;
 }
 .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
-.navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-.navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
+.navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+.navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
 .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover {
 	cursor: inherit;
 	border-color: transparent !important;
 	box-shadow: inset 0 -2px #f7465b !important;
 }
-.navbar-nav.nav-tabs.nav-border-bottom > li > a:focus, 
-.navbar-nav.nav-tabs.nav-border-bottom > .open > a, 
+.navbar-nav.nav-tabs.nav-border-bottom > li > a:focus,
+.navbar-nav.nav-tabs.nav-border-bottom > .open > a,
 .navbar-nav.nav-tabs.nav-border-bottom > .open > a:focus,
-.navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-.navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+.navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+.navbar-nav.nav-pills.nav-border-bottom > .open > a,
 .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #f7465b !important;
@@ -771,10 +771,10 @@ body.boxed #header.header-fluid .container {
 /* if header is transparent */
 #header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
 #header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
-#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #f7465b !important;
@@ -782,10 +782,10 @@ body.boxed #header.header-fluid .container {
 }
 #header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
 #header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
-#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.transparent.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #f7465b !important;
@@ -793,12 +793,12 @@ body.boxed #header.header-fluid .container {
 }
 
 /* if header is dark */
-#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
+#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
 #header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
-#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
+#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
 #header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
-#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.header-dark.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus  {
 	background-color: transparent !important;
 	color: #f7465b !important;
@@ -807,44 +807,44 @@ body.boxed #header.header-fluid .container {
 
 /* if header is colored */
 #header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
-#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.header-color .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.header-color .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.header-color .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #FFF !important;
 	box-shadow: inset 0 -2px #FFF !important;
 }
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
 #header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
 #header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #FFF !important;
 	box-shadow: inset 0 -2px #FFF !important;
 }
 #header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
-#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.header-color.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #f7465b !important;
 	box-shadow: inset 0 -2px #f7465b !important;
 }
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 #header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 	background-color: transparent !important;
 	color: #FFF !important;
@@ -852,7 +852,7 @@ body.boxed #header.header-fluid .container {
 }
 
 
-/* Make navigation toggle on desktop hover (use class: dropdown-hover). Note: Depend on bootstrap menu breakpoint. 
+/* Make navigation toggle on desktop hover (use class: dropdown-hover). Note: Depend on bootstrap menu breakpoint.
 ====================================================================================================================*/
 @media (min-width : 992px) {
 	.dropdown-hover > .dropdown-menu {
@@ -867,7 +867,7 @@ body.boxed #header.header-fluid .container {
 }
 
 
-/* Mobile menu (shange bootstrap menu breakpoint "768px", "992px", "1200px") 
+/* Mobile menu (shange bootstrap menu breakpoint "768px", "992px", "1200px")
 ============================================================================== */
 @media (max-width : 992px) {
 	/* Header */
@@ -919,13 +919,13 @@ body.boxed #header.header-fluid .container {
 
 	#header.header-dark .navbar-toggle .icon-bar, /* If header is transparent, dark or custom background color used */
 	#header.transparent .navbar-toggle .icon-bar,
-	#header.header-dark.transparent .navbar-toggle .icon-bar, 
+	#header.header-dark.transparent .navbar-toggle .icon-bar,
 	#header.header-dark.semi-transparent .navbar-toggle .icon-bar,
 	#header.header-color .navbar-toggle .icon-bar,
-	#header.header-color.transparent .navbar-toggle .icon-bar, 
-	#header.header-color.semi-transparent .navbar-toggle .icon-bar {  
+	#header.header-color.transparent .navbar-toggle .icon-bar,
+	#header.header-color.semi-transparent .navbar-toggle .icon-bar {
 		background-color: #FFF;
-	} 
+	}
 
 	/* Navbar nav */
 	.navbar-nav {
@@ -970,16 +970,16 @@ body.boxed #header.header-fluid .container {
 		text-decoration: none !important;
 		border-color: rgba(115, 115, 115, 0.13);
 	}
-	.navbar-collapse .navbar-nav > li > a:focus, 
-	.navbar-collapse .navbar-nav > li > a:hover, 
-	.navbar-collapse .navbar-nav .open > a, 
-	.navbar-collapse .navbar-nav .open > a:focus, 
-	.navbar-collapse .navbar-nav .open > a:hover, 
-	.navbar-collapse .navbar-nav > .open > a, 
-	.navbar-collapse .navbar-nav > .open > a:focus, 
-	.navbar-collapse .navbar-nav > .open > a:hover, 
-	.navbar-collapse .navbar-nav > .active > a, 
-	.navbar-collapse .navbar-nav > .active > a:focus, 
+	.navbar-collapse .navbar-nav > li > a:focus,
+	.navbar-collapse .navbar-nav > li > a:hover,
+	.navbar-collapse .navbar-nav .open > a,
+	.navbar-collapse .navbar-nav .open > a:focus,
+	.navbar-collapse .navbar-nav .open > a:hover,
+	.navbar-collapse .navbar-nav > .open > a,
+	.navbar-collapse .navbar-nav > .open > a:focus,
+	.navbar-collapse .navbar-nav > .open > a:hover,
+	.navbar-collapse .navbar-nav > .active > a,
+	.navbar-collapse .navbar-nav > .active > a:focus,
 	.navbar-collapse .navbar-nav > .active > a:hover {
 	   background-color: transparent !important;
 		text-decoration: none !important;
@@ -1004,20 +1004,20 @@ body.boxed #header.header-fluid .container {
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
 		color: #545A5F !important;
 	}
-	.navbar-collapse .navbar-nav.nav-pills > li.active > a, 
-	.navbar-collapse .navbar-nav.nav-pills > li.active > a:focus, 
+	.navbar-collapse .navbar-nav.nav-pills > li.active > a,
+	.navbar-collapse .navbar-nav.nav-pills > li.active > a:focus,
 	.navbar-collapse .navbar-nav.nav-pills > li.active > a:hover,
 
-	.navbar-collapse .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	.navbar-collapse .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
+	.navbar-collapse .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	.navbar-collapse .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
 	.navbar-collapse .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover {
 		background-color: transparent !important;
 		border: none !important;
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
 		box-shadow: none !important;
 	}
-	.navbar-collapse .navbar-nav.nav-pills > li > a:focus, 
-	.navbar-collapse .navbar-nav.nav-pills > .open > a, 
+	.navbar-collapse .navbar-nav.nav-pills > li > a:focus,
+	.navbar-collapse .navbar-nav.nav-pills > .open > a,
 	.navbar-collapse .navbar-nav.nav-pills > .open > a:focus {
 		background-color: transparent !important;
 		text-decoration: none;
@@ -1027,7 +1027,7 @@ body.boxed #header.header-fluid .container {
 	}
 
 	/* Navbar collapse border bottom */
-	.navbar-nav.nav-tabs.nav-border-bottom > li + li, 
+	.navbar-nav.nav-tabs.nav-border-bottom > li + li,
 	.navbar-nav.nav-pills.nav-border-bottom > li + li {
 		margin-left: 0 !important;
 	}
@@ -1037,16 +1037,16 @@ body.boxed #header.header-fluid .container {
 		box-shadow: none !important;
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
 	}
-	.navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	.navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	.navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
+	.navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	.navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	.navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
 	.navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
 
-	.navbar-nav.nav-tabs.nav-border-bottom > li > a:focus, 
-	.navbar-nav.nav-tabs.nav-border-bottom > .open > a, 
-	.navbar-nav.nav-tabs.nav-border-bottom > .open > a:focus, 
-	.navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	.navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	.navbar-nav.nav-tabs.nav-border-bottom > li > a:focus,
+	.navbar-nav.nav-tabs.nav-border-bottom > .open > a,
+	.navbar-nav.nav-tabs.nav-border-bottom > .open > a:focus,
+	.navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	.navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	.navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		color: #545A5F !important;
 		box-shadow: none !important;
@@ -1073,16 +1073,16 @@ body.boxed #header.header-fluid .container {
 		border-left: 4px solid transparent;
 		border-right: 4px solid transparent;
 	}
-	.navbar-collapse .navbar-nav .open .dropdown-menu li, 
+	.navbar-collapse .navbar-nav .open .dropdown-menu li,
 	.navbar-collapse .navbar-default .navbar-nav .open .dropdown-menu li {
 		padding-left: 20px;
 	}
-	.navbar-collapse .navbar-nav .open .dropdown-menu li > a, 
+	.navbar-collapse .navbar-nav .open .dropdown-menu li > a,
 	.navbar-collapse .navbar-default .navbar-nav .open .dropdown-menu li > a {
 		padding: 12px 10px 12px 10px;
 		color: #8E969C;
 	}
-	.navbar-collapse .navbar-nav .open .dropdown-menu li:last-child > a, 
+	.navbar-collapse .navbar-nav .open .dropdown-menu li:last-child > a,
 	.navbar-collapse .navbar-default .navbar-nav .open .dropdown-menu li:last-child > a {
 		border-bottom: none;
 	}
@@ -1095,15 +1095,15 @@ body.boxed #header.header-fluid .container {
 		color: #DDD !important;
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
 	}
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li > a:hover, 
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li.active > a, 
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav  li.active > a:focus, 
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li > a:hover,
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li.active > a,
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav  li.active > a:focus,
 	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li.active > a:hover,
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li > a:focus, 
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a, 
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a:focus, 
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li > a:focus, 
-	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a, 
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li > a:focus,
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a,
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a:focus,
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav li > a:focus,
+	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a,
 	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav > .open > a:focus {
 		background-color: transparent !important;
 		color: #DDD !important;
@@ -1112,7 +1112,7 @@ body.boxed #header.header-fluid .container {
 		box-shadow: none !important;
 	}
 	.navbar-collapse.mob-navbar-collapse-dark .navbar-nav .open .dropdown-menu {
-		background-color: rgba(255, 255, 255, 0.05);	
+		background-color: rgba(255, 255, 255, 0.05);
 	}
 	.navbar-collapse.mob-navbar-collapse-dark .dropdown-menu-color > .dropdown-header {
 		font-weight: 400;
@@ -1129,7 +1129,7 @@ body.boxed #header.header-fluid .container {
 	}
 
 	/* Navbar collapse links align */
-	.navbar-collapse.mob-navbar-align-center .navbar-nav li, 
+	.navbar-collapse.mob-navbar-align-center .navbar-nav li,
 	.navbar-collapse.mob-navbar-align-center .navbar-nav .open .dropdown-menu li {
 		padding: 0;
 		text-align: center !important;
@@ -1137,12 +1137,12 @@ body.boxed #header.header-fluid .container {
 
 
 	/* If header is dark */
-	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.header-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		box-shadow: none !important;
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
@@ -1150,24 +1150,24 @@ body.boxed #header.header-fluid .container {
 	}
 
 	/* If header is colored */
-	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.header-color .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		box-shadow: none !important;
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
 		color: #545A5F !important;
 	}
 	/* If header is transparent */
-	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.transparent .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		box-shadow: none !important;
 		border-bottom: 1px solid rgba(115, 115, 115, 0.13) !important;
@@ -1175,62 +1175,62 @@ body.boxed #header.header-fluid .container {
 	}
 
 	/* If header is dark + mob-navbar-collapse-dark */
-	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.header-dark .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		color: #DDD !important;
 		box-shadow: none !important;
 	}
 
 	/* If header is colored + mob-navbar-collapse-dark */
-	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
+	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
 
-	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
+	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
 
-	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.header-color .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		color: #DDD !important;
 		box-shadow: none !important;
 	}
 
 	/* If header is transparent + mob-navbar-collapse-dark */
-	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus,
 
-	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.transparent.header-color.header-filled .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus,
- 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
+
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
 	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus,
 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus, 
-	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a, 
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:hover,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:focus,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li.active > a:hover,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > li > a:focus,
+	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a,
 	#header.transparent .mob-navbar-collapse-dark .navbar-nav.nav-pills.nav-border-bottom > .open > a:focus {
 		color: #DDD !important;
 		box-shadow: none !important;
@@ -1261,7 +1261,7 @@ body.no-scroll {
 	background: #070F13;
 	overflow-y: auto;
 }
-.fullscreen-menu .menu-nav ul {	
+.fullscreen-menu .menu-nav ul {
 	max-width: 600px;
 	margin: 80px auto 40px auto;
 	padding: 0;
@@ -1359,8 +1359,8 @@ body.no-scroll {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.fullscreen-menu .hamburger .mid-animate { 
-	opacity: 0; 
+.fullscreen-menu .hamburger .mid-animate {
+	opacity: 0;
 }
 .fullscreen-menu .hamburger .bottom-animate {
 	background: #fff !important;
@@ -1375,24 +1375,24 @@ body.no-scroll {
 }
 
 /* If header is transparent */
-#header.transparent .fullscreen-menu .hamburger .menui { 
+#header.transparent .fullscreen-menu .hamburger .menui {
 	background-color: #FFF;
 }
 /* If header is dark or custom background color used */
-#header.header-dark .fullscreen-menu .hamburger .menui, 
-#header.header-dark.transparent .fullscreen-menu .hamburger .menui, 
+#header.header-dark .fullscreen-menu .hamburger .menui,
+#header.header-dark.transparent .fullscreen-menu .hamburger .menui,
 #header.header-dark.semi-transparent .fullscreen-menu .hamburger .menui,
 #header.header-color .fullscreen-menu .hamburger .menui,
-#header.header-color.transparent .fullscreen-menu .hamburger .menui, 
-#header.header-color.semi-transparent .fullscreen-menu .hamburger .menui {  
+#header.header-color.transparent .fullscreen-menu .hamburger .menui,
+#header.header-color.semi-transparent .fullscreen-menu .hamburger .menui {
 	background-color: #000 !important;
-} 
+}
 #header.header-dark .fullscreen-menu .menui.top-menu.top-animate,
 #header.header-dark .fullscreen-menu .menui.bottom-menu.bottom-animate {
 	background-color:#fff !important;
 }
 /* If header is filled */
-#header.header-filled .fullscreen-menu .hamburger .menui { 
+#header.header-filled .fullscreen-menu .hamburger .menui {
 	background-color: #545A5F;
 }
 
@@ -1512,7 +1512,7 @@ section {
 /* If angle bottom is enabled */
 .page-header.angle-left-bottom .vertical-align-center {
 	margin-top: -20px;
-} 
+}
 .page-header.angle-right-bottom .vertical-align-center {
 	margin-top: -40px;
 }
@@ -1696,44 +1696,44 @@ hr.hr-width-10 { max-width: 900px; }
 	transition: all 0.3s ease-in-out;
 }
 .heading.heading-hover:hover .hr-width-1,
-.page-header:hover .heading.heading-hover .hr-width-1 { 
-	max-width: 60px; 
+.page-header:hover .heading.heading-hover .hr-width-1 {
+	max-width: 60px;
 }
 .heading.heading-hover:hover .hr-width-2,
-.page-header:hover .heading.heading-hover .hr-width-2 { 
-	max-width: 110px; 
+.page-header:hover .heading.heading-hover .hr-width-2 {
+	max-width: 110px;
 }
 .heading.heading-hover:hover .hr-width-3,
-.page-header:hover .heading.heading-hover .hr-width-3 { 
-	max-width: 210px; 
+.page-header:hover .heading.heading-hover .hr-width-3 {
+	max-width: 210px;
 }
 .heading.heading-hover:hover .hr-width-4,
-.page-header:hover .heading.heading-hover .hr-width-4 { 
-	max-width: 310px; 
+.page-header:hover .heading.heading-hover .hr-width-4 {
+	max-width: 310px;
 }
 .heading.heading-hover:hover .hr-width-5,
-.page-header:hover .heading.heading-hover .hr-width-5 { 
-	max-width: 410px; 
+.page-header:hover .heading.heading-hover .hr-width-5 {
+	max-width: 410px;
 }
 .heading.heading-hover:hover .hr-width-6,
-.page-header:hover .heading.heading-hover .hr-width-6 { 
-	max-width: 510px; 
+.page-header:hover .heading.heading-hover .hr-width-6 {
+	max-width: 510px;
 }
 .heading.heading-hover:hover .hr-width-7,
-.page-header:hover .heading.heading-hover .hr-width-7 { 
-	max-width: 610px; 
+.page-header:hover .heading.heading-hover .hr-width-7 {
+	max-width: 610px;
 }
 .heading.heading-hover:hover .hr-width-8,
-.page-header:hover .heading.heading-hover .hr-width-8 { 
-	max-width: 710px; 
+.page-header:hover .heading.heading-hover .hr-width-8 {
+	max-width: 710px;
 }
 .heading.heading-hover:hover .hr-width-9,
-.page-header:hover .heading.heading-hover .hr-width-9 { 
-	max-width: 810px; 
+.page-header:hover .heading.heading-hover .hr-width-9 {
+	max-width: 810px;
 }
 .heading.heading-hover:hover .hr-width-10,
-.page-header:hover .heading.heading-hover .hr-width-10 { 
-	max-width: 910px; 
+.page-header:hover .heading.heading-hover .hr-width-10 {
+	max-width: 910px;
 }
 
 /* heading tescription */
@@ -1885,24 +1885,24 @@ hr.hr-width-10 { max-width: 900px; }
 }
 /* Hover animation (CSS Animation Generator: https://coveloping.com/tools/css-animation-generator) */
 .info-box:hover .info-box-icon {
-	-webkit-animation-name: shake; 
-	animation-name: shake; 
-	-webkit-animation-duration: 0.7s; 
-	animation-duration: 0.7s; 
-	-webkit-animation-fill-mode: both; 
-	animation-fill-mode: both; 
-	-webkit-animation-timing-function: ease-in-out; 
-	animation-timing-function: ease-in-out; 
-} 
-@-webkit-keyframes shake { 
-	0%, 100% {-webkit-transform: translateX(0);} 
-	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-2px);} 
-	20%, 40%, 60%, 80% {-webkit-transform: translateX(2px);} 
-} 
-@keyframes shake { 
-	0%, 100% {transform: translateX(0);} 
-	10%, 30%, 50%, 70%, 90% {transform: translateX(-2px);} 
-	20%, 40%, 60%, 80% {transform: translateX(2px);} 
+	-webkit-animation-name: shake;
+	animation-name: shake;
+	-webkit-animation-duration: 0.7s;
+	animation-duration: 0.7s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes shake {
+	0%, 100% {-webkit-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-2px);}
+	20%, 40%, 60%, 80% {-webkit-transform: translateX(2px);}
+}
+@keyframes shake {
+	0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-2px);}
+	20%, 40%, 60%, 80% {transform: translateX(2px);}
 }
 
 .info-box-info {
@@ -1912,7 +1912,7 @@ hr.hr-width-10 { max-width: 900px; }
 	margin-bottom: 20px;
 	font-size: 18px;
 }
-.info-box-text { 
+.info-box-text {
 	color: #8E969C;
 }
 
@@ -1935,7 +1935,7 @@ hr.hr-width-10 { max-width: 900px; }
 	background-color: #EEE;
 	color: #545A5F;
 }
-.info-box .square-icon:before { 
+.info-box .square-icon:before {
 	position: absolute;
 	content: '';
 	width: 50%;
@@ -1980,7 +1980,7 @@ hr.hr-width-10 { max-width: 900px; }
 	background-color: #EEE;
 	color: #545A5F;
 }
-.info-box .half-square-icon:before { 
+.info-box .half-square-icon:before {
 	position: absolute;
 	content: '';
 	width: 50%;
@@ -2450,7 +2450,7 @@ hr.hr-width-10 { max-width: 900px; }
 }
 
 
-/* isotope on smaller screens 
+/* isotope on smaller screens
 =============================== */
 @media (max-width: 1600px) {
 	.isotope.col-5 .isotope-item,
@@ -2722,7 +2722,7 @@ img.mfp-img {
 }
 
 /* fade in navigation */
-.mfp-fadein .mfp-figure { 
+.mfp-fadein .mfp-figure {
 	-webkit-animation-name: fadeIn;
 	-moz-animation-name: fadeIn;
 	-o-animation-name: fadeIn;
@@ -2739,19 +2739,19 @@ img.mfp-img {
   -ms-backface-visibility: hidden;
 }
 @-webkit-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 @-moz-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 @-o-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 @keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
@@ -2768,7 +2768,7 @@ img.mfp-img {
 	}
 }
 
-/* Inline popup (type inline) 
+/* Inline popup (type inline)
 ------------------------------- */
 .inline-popup {
 	position: relative;
@@ -2804,44 +2804,44 @@ img.mfp-img {
 /* start state */
 .mfp-fade-zoom .inline-popup {
 	opacity: 0;
-	-webkit-transition: all 0.4s ease-in-out; 
-	-moz-transition: all 0.4s ease-in-out; 
-	-o-transition: all 0.4s ease-in-out; 
-	transition: all 0.4s ease-in-out; 
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 
-	-webkit-transform: scale(0.8); 
-	-moz-transform: scale(0.8); 
-	-ms-transform: scale(0.8); 
-	-o-transform: scale(0.8); 
-	transform: scale(0.8); 
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
 }
 
 /* animate in */
 .mfp-fade-zoom.mfp-ready .inline-popup {
 	opacity: 1;
-	-webkit-transform: scale(1); 
-	-moz-transform: scale(1); 
-	-ms-transform: scale(1); 
-	-o-transform: scale(1); 
-	transform: scale(1); 
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
 }
 
 /* animate out */
 .mfp-fade-zoom.mfp-removing .inline-popup {
 	opacity: 0;
-	-webkit-transform: scale(0.8); 
-	-moz-transform: scale(0.8); 
-	-ms-transform: scale(0.8); 
-	-o-transform: scale(0.8); 
-	transform: scale(0.8); 
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
 }
 
 /* Dark overlay, start state */
 .mfp-fade-zoom.mfp-bg {
 	opacity: 0;
-	-webkit-transition: opacity 0.3s ease-out; 
-	-moz-transition: opacity 0.3s ease-out; 
-	-o-transition: opacity 0.3s ease-out; 
+	-webkit-transition: opacity 0.3s ease-out;
+	-moz-transition: opacity 0.3s ease-out;
+	-o-transition: opacity 0.3s ease-out;
 	transition: opacity 0.3s ease-out;
 }
 /* animate in */
@@ -3486,7 +3486,7 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* OWL controls */
-.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
 	position: absolute;
 }
@@ -3495,7 +3495,7 @@ blockquote .small, blockquote footer, blockquote small {
 .owl-nav {
 	margin: 0;
 }
-.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
 	top: 50%;
 	width: 50px;
@@ -3522,11 +3522,11 @@ blockquote .small, blockquote footer, blockquote small {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.owl-carousel:hover .owl-nav button.owl-prev, 
+.owl-carousel:hover .owl-nav button.owl-prev,
 .owl-carousel:hover .owl-nav button.owl-next {
 	opacity: 1;
 }
-.owl-carousel .owl-nav button.owl-prev:hover, 
+.owl-carousel .owl-nav button.owl-prev:hover,
 .owl-carousel .owl-nav button.owl-next:hover {
 	background-color: #f7465b;
 }
@@ -3552,7 +3552,7 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Prev/Next buttons positions outside (left/right) */
-.owl-carousel.nav-outside .owl-nav button.owl-prev, 
+.owl-carousel.nav-outside .owl-nav button.owl-prev,
 .owl-carousel.nav-outside .owl-nav button.owl-next {
 	width: 40px;
 	height: 40px;
@@ -3562,11 +3562,11 @@ blockquote .small, blockquote footer, blockquote small {
 	color: #FFF;
 	opacity: 1;
 }
-.owl-carousel.nav-outside .owl-nav button.owl-prev:hover, 
+.owl-carousel.nav-outside .owl-nav button.owl-prev:hover,
 .owl-carousel.nav-outside .owl-nav button.owl-next:hover {
 	color: #FFF;
 }
-.owl-carousel.nav-outside .owl-nav button.owl-prev.disabled, 
+.owl-carousel.nav-outside .owl-nav button.owl-prev.disabled,
 .owl-carousel.nav-outside .owl-nav button.owl-next.disabled {
 	background-color: rgba(162, 169, 171, 0.2);
 	color: #A4AAAD;
@@ -3578,7 +3578,7 @@ blockquote .small, blockquote footer, blockquote small {
 	right: -55px;
 }
 @media (max-width: 1300px) {
-	.owl-carousel.nav-outside .owl-nav button.owl-prev, 
+	.owl-carousel.nav-outside .owl-nav button.owl-prev,
 	.owl-carousel.nav-outside .owl-nav button.owl-next {
 		width: 40px;
 		height: 40px;
@@ -3599,7 +3599,7 @@ blockquote .small, blockquote footer, blockquote small {
 	right: 0;
 	width: 65px;
 }
-.nav-outside-top .owl-nav button.owl-prev, 
+.nav-outside-top .owl-nav button.owl-prev,
 .nav-outside-top .owl-nav button.owl-next {
 	width: 30px;
 	height: 30px;
@@ -3613,12 +3613,12 @@ blockquote .small, blockquote footer, blockquote small {
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 }
-.nav-outside-top .owl-nav button.owl-prev:hover, 
+.nav-outside-top .owl-nav button.owl-prev:hover,
 .nav-outside-top .owl-nav button.owl-next:hover {
 	background-color: #1B282D;
 	color: #FFF;
 }
-.nav-outside-top .owl-nav button.owl-prev.disabled, 
+.nav-outside-top .owl-nav button.owl-prev.disabled,
 .nav-outside-top .owl-nav button.owl-next.disabled {
 	background-color: rgba(162, 169, 171, 0.2);
 	color: #A4AAAD;
@@ -3631,7 +3631,7 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Prev/Next buttons rounded */
-.nav-rounded .owl-nav button.owl-prev, 
+.nav-rounded .owl-nav button.owl-prev,
 .nav-rounded .owl-nav button.owl-next {
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -3668,7 +3668,7 @@ blockquote .small, blockquote footer, blockquote small {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-.owl-dots button.owl-dot.active span, 
+.owl-dots button.owl-dot.active span,
 .owl-dots button.owl-dot:hover span {
 	background-color: #f7465b;
 }
@@ -3679,11 +3679,11 @@ blockquote .small, blockquote footer, blockquote small {
 .dots-outside {
 	margin-bottom: 50px;
 }
-.dots-outside .owl-dots, 
+.dots-outside .owl-dots,
 .dots-outside .owl-nav.disabled + .owl-dots {
 	bottom: -40px;
 }
-.dots-left .owl-dots, 
+.dots-left .owl-dots,
 .dots-left .owl-nav.disabled + .owl-dots {
 	left: 20px;
 	-moz-transform: translateX(0);
@@ -3691,7 +3691,7 @@ blockquote .small, blockquote footer, blockquote small {
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
 }
-.dots-right .owl-dots, 
+.dots-right .owl-dots,
 .dots-right .owl-nav.disabled + .owl-dots {
 	left: inherit;
 	right: 20px;
@@ -3740,7 +3740,7 @@ blockquote .small, blockquote footer, blockquote small {
 	}
 }
 
-/* CC caption positions 
+/* CC caption positions
 ======================== */
 /* position top */
 .owl-carousel .cc-caption.top-left {
@@ -3833,7 +3833,7 @@ blockquote .small, blockquote footer, blockquote small {
 	outline: none;
 }
 
-/* Button styles 
+/* Button styles
 ================= */
 
 /* Button default */
@@ -4464,7 +4464,7 @@ blockquote .small, blockquote footer, blockquote small {
 	text-decoration: none;
 }
 
-/* Button with dropdown 
+/* Button with dropdown
 ======================== */
 .btn-group > .btn + .dropdown-toggle {
 	padding-right: 10px;
@@ -4472,7 +4472,7 @@ blockquote .small, blockquote footer, blockquote small {
 	border-left: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-/* Button social 
+/* Button social
 ================= */
 .btn-social {
 	position: relative;
@@ -4524,31 +4524,31 @@ blockquote .small, blockquote footer, blockquote small {
 	text-align: center;
 	font-size: 17px;
 }
-.btn-social-min.btn-xs { 
+.btn-social-min.btn-xs {
 	width: 26px;
 	height: 26px;
-	line-height: 24px; 
+	line-height: 24px;
 }
-.btn-social-min.btn-sm { 
+.btn-social-min.btn-sm {
 	width: 35px;
 	height: 35px;
-	line-height: 33px; 
+	line-height: 33px;
 }
-.btn-social-min.btn-lg { 
+.btn-social-min.btn-lg {
 	width: 55px;
 	height: 55px;
-	line-height: 53px; 
+	line-height: 53px;
 }
-.btn-social-min.btn-xlg { 
+.btn-social-min.btn-xlg {
 	width: 69px;
 	height: 69px;
-	line-height: 67px; 
+	line-height: 67px;
 }
 
 /* Button facebook */
-.btn-facebook { 
+.btn-facebook {
 	background-color: #3b5998;
-	color: #fff; 
+	color: #fff;
 }
 .btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .open > .dropdown-toggle.btn-facebook {
 	color: #fff;
@@ -4556,9 +4556,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button twitter */
-.btn-twitter { 
+.btn-twitter {
 	background-color: #55acee;
-	color: #fff; 
+	color: #fff;
 }
 .btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active, .open > .dropdown-toggle.btn-twitter {
 	color: #fff;
@@ -4566,9 +4566,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button dropbox */
-.btn-dropbox { 
+.btn-dropbox {
 	background-color: #1087dd;
-	color: #fff; 
+	color: #fff;
 }
 .btn-dropbox:hover, .btn-dropbox:focus, .btn-dropbox:active, .btn-dropbox.active, .open > .dropdown-toggle.btn-dropbox {
 	color: #fff;
@@ -4576,9 +4576,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button linkedin */
-.btn-linkedin { 
+.btn-linkedin {
 	background-color: #007bb6;
-	color: #fff; 
+	color: #fff;
 }
 .btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active, .btn-linkedin.active, .open > .dropdown-toggle.btn-linkedin {
 	color: #fff;
@@ -4586,9 +4586,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button pinterest */
-.btn-pinterest { 
+.btn-pinterest {
 	background-color: #cb2027;
-	color: #fff; 
+	color: #fff;
 }
 .btn-pinterest:hover, .btn-pinterest:focus, .btn-pinterest:active, .btn-pinterest.active, .open > .dropdown-toggle.btn-pinterest {
 	color: #fff;
@@ -4596,9 +4596,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button google */
-.btn-google { 
+.btn-google {
 	background-color: #dd4b39;
-	color: #fff; 
+	color: #fff;
 }
 .btn-google:hover, .btn-google:focus, .btn-google:active, .btn-google.active, .open > .dropdown-toggle.btn-google {
 	color: #fff;
@@ -4616,9 +4616,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button linkedin */
-.btn-linkedin { 
+.btn-linkedin {
 	background-color: #3f729b;
-	color: #fff; 
+	color: #fff;
 }
 .btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active, .btn-linkedin.active, .open > .dropdown-toggle.btn-linkedin {
 	color: #fff;
@@ -4626,9 +4626,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button tumblr */
-.btn-tumblr { 
+.btn-tumblr {
 	background-color: #2c4762;
-	color: #fff; 
+	color: #fff;
 }
 .btn-tumblr:hover, .btn-tumblr:focus, .btn-tumblr:active, .btn-tumblr.active, .open > .dropdown-toggle.btn-tumblr {
 	color: #fff;
@@ -4636,9 +4636,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button vk */
-.btn-vk { 
+.btn-vk {
 	background-color: #587ea3;
-	color: #fff; 
+	color: #fff;
 }
 .btn-vk:hover, .btn-vk:focus, .btn-vk:active, .btn-vk.active, .open > .dropdown-toggle.btn-vk {
 	color: #fff;
@@ -4646,9 +4646,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button flickr */
-.btn-flickr { 
+.btn-flickr {
 	background-color: #ff0084;
-	color: #fff; 
+	color: #fff;
 }
 .btn-flickr:hover, .btn-flickr:focus, .btn-flickr:active, .btn-flickr.active, .open > .dropdown-toggle.btn-flickr {
 	color: #fff;
@@ -4656,9 +4656,9 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button soundcloud */
-.btn-soundcloud { 
+.btn-soundcloud {
 	background-color: #f50;
-	color: #fff; 
+	color: #fff;
 }
 .btn-soundcloud:hover, .btn-soundcloud:focus, .btn-soundcloud:active, .btn-soundcloud.active, .open > .dropdown-toggle.btn-soundcloud {
 	color: #fff;
@@ -4666,16 +4666,16 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 /* Button yahoo */
-.btn-yahoo { 
+.btn-yahoo {
 	background-color: #720e9e;
-	color: #fff; 
+	color: #fff;
 }
 .btn-yahoo:hover, .btn-yahoo:focus, .btn-yahoo:active, .btn-yahoo.active, .open > .dropdown-toggle.btn-yahoo {
 	color: #fff;
 	background-color: #500a6f;
 }
 
-/* Button rounded 
+/* Button rounded
 ================== */
 .btn-rounded {
 	-webkit-border-radius: 4px;
@@ -4708,7 +4708,7 @@ blockquote .small, blockquote footer, blockquote small {
 	border-radius: 50%;
 }
 
-/* Button sizes 
+/* Button sizes
 ================ */
 .btn-group-xs > .btn, .btn-xs {
 	padding: 2px 15px;
@@ -4813,10 +4813,10 @@ ul.social-icons > li + li {
 	text-transform: uppercase;
 	font-size: 13px;
 }
-.dropdown-menu li > a:focus, 
+.dropdown-menu li > a:focus,
 .dropdown-menu li > a:hover,
-.dropdown-menu > .active > a, 
-.dropdown-menu > .active > a:focus, 
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
 	background-color: rgba(140, 140, 140, 0.15) !important;
 	color: #545A5F;
@@ -4831,10 +4831,10 @@ ul.social-icons > li + li {
 .dropdown-menu-dark .dropdown-menu li > a {
 	color: #BBB;
 }
-.dropdown-menu-dark .dropdown-menu li > a:focus, 
+.dropdown-menu-dark .dropdown-menu li > a:focus,
 .dropdown-menu-dark .dropdown-menu li > a:hover,
-.dropdown-menu-dark .dropdown-menu > .active > a, 
-.dropdown-menu-dark .dropdown-menu > .active > a:focus, 
+.dropdown-menu-dark .dropdown-menu > .active > a,
+.dropdown-menu-dark .dropdown-menu > .active > a:focus,
 .dropdown-menu-dark .dropdown-menu > .active > a:hover {
 	color: #FFF;
 }
@@ -4920,8 +4920,8 @@ ul.social-icons > li + li {
 	text-decoration: none;
 	color: #545A5F;
 }
-.nav-pills > li.active > a, 
-.nav-pills > li.active > a:focus, 
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
 	background-color: #f7465b !important;
 	cursor: default;
@@ -5005,11 +5005,11 @@ ul.social-icons > li + li {
 	color: #f7465b !important;
 	box-shadow: inset 0 -3px #f7465b;
 }
-.nav-tabs.nav-border-bottom > li.active > a, 
-.nav-tabs.nav-border-bottom > li.active > a:focus, 
+.nav-tabs.nav-border-bottom > li.active > a,
+.nav-tabs.nav-border-bottom > li.active > a:focus,
 .nav-tabs.nav-border-bottom > li.active > a:hover,
-.nav-pills.nav-border-bottom > li.active > a, 
-.nav-pills.nav-border-bottom > li.active > a:focus, 
+.nav-pills.nav-border-bottom > li.active > a,
+.nav-pills.nav-border-bottom > li.active > a:focus,
 .nav-pills.nav-border-bottom > li.active > a:hover {
 	background-color: transparent !important;
 	font-weight: 500;
@@ -5245,7 +5245,7 @@ ul.social-icons > li + li {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.thumb-list .thumb-list-item:hover { 
+.thumb-list .thumb-list-item:hover {
 	opacity: .7;
 }
 
@@ -5374,7 +5374,7 @@ ul.social-icons > li + li {
 
 
 /* -------------------------------------------------------------------- *
- * Stylesheet Switcher (for demo only). Remove if you do not need it.
+ * Stylesheet Switcher (for images/demo only). Remove if you do not need it.
 /* -------------------------------------------------------------------- */
 
 .switcher-wrapper {
@@ -5455,22 +5455,22 @@ ul.social-icons > li + li {
 	-ms-transform: scale(1.15);
 	transform: scale(1.15);
 }
-.switcher-color-box.default { 
+.switcher-color-box.default {
 	background-color: #f7465b;
 }
-.switcher-color-box.green { 
+.switcher-color-box.green {
 	background-color: #5FC11B;
 }
-.switcher-color-box.brown { 
+.switcher-color-box.brown {
 	background-color: #AB915A;
 }
-.switcher-color-box.blue { 
+.switcher-color-box.blue {
 	background-color: #3078B3;
 }
-.switcher-color-box.purple { 
+.switcher-color-box.purple {
 	background-color: #800080;
 }
-.switcher-color-box.yellow { 
+.switcher-color-box.yellow {
 	background-color: #FF9C00;
 }
 

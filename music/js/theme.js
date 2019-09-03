@@ -8,7 +8,7 @@ $(window).on('load',function() {
 
 
 //=======================
-// Window resize 
+// Window resize
 //=======================
 
 $(window).resize(function() {
@@ -16,8 +16,8 @@ $(window).resize(function() {
   // Make ".intro-inner" margin-top equal to "#header" height
   ///$('.intro-inner').css( 'margin-top', $('#header').css('height'));
 
-  // Full height page 
-  //$('.full-height').innerHeight($(window).height()); 
+  // Full height page
+  //$('.full-height').innerHeight($(window).height());
 
 }).resize();
 
@@ -27,7 +27,7 @@ $(window).resize(function() {
 // Bootstrap Menu/nav
 //=======================
 
-// Keeping dropdown submenu inside screen. 
+// Keeping dropdown submenu inside screen.
 // More info: http://stackoverflow.com/questions/17985334/jquery-solution-for-keeping-dropdown-submenu-inside-screen
 $('.dropdown-toggle').parent().hover(function() {
 	var menu = $('> .dropdown-menu',this);
@@ -35,7 +35,7 @@ $('.dropdown-toggle').parent().hover(function() {
 
 	if (menupos.left + menu.width() > $(window).width()) {
 		var newpos = -$(menu).width();
-		menu.css({ left: newpos });    
+		menu.css({ left: newpos });
 	}
 });
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
 });
 
 
-// Bootstrap submenu 
+// Bootstrap submenu
 // More info: (http://vsn4ik.github.io/bootstrap-submenu)
 
 
@@ -222,7 +222,7 @@ $('.dropdown-submenu > a').submenupicker();
 
 
 
-// Fullscreen overlay menu 
+// Fullscreen overlay menu
 // More info: (http://www.jqueryscript.net/menu/Responsive-Fullscreen-Navigation-Menu-with-jQuery-CSS3.html)
 
 
@@ -316,7 +316,7 @@ function init() {
 
 function scrollPage() {
 var sy = scrollY();
-if ($(this).scrollTop() > 150){  
+if ($(this).scrollTop() > 150){
 	$('#header.fixed-top, #header.show-hide-on-scroll').addClass("header-filled");
 }
 else{
@@ -372,7 +372,7 @@ $('.sm-scroll').on('click',function() {
 	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 	if (target.length) {
 		$('html,body').animate({
-			scrollTop: target.offset().top 
+			scrollTop: target.offset().top
 		}, 1500, 'easeInOutExpo');
 			return false;
 		}
@@ -414,9 +414,6 @@ filterItemActive.on('click', function(){
 });
 
 
-if (!jQuery.browser.mobile) { 
-	$(".youtube-bg").mb_YTPlayer();
-}
 
 
 
@@ -482,7 +479,7 @@ $('.owl-carousel').each( function() {
 // More info: https://tgomilar.github.io/paroller.js/
 //=====================================================
 
-$('.bg-image-parallax').paroller({ 
+$('.bg-image-parallax').paroller({
 	factor: 0.3, // multiplier for scrolling speed and offset.
 	factorXs: 0.1, // multiplier for scrolling speed and offset if window width is <576px.
 	factorSm: 0.2, // multiplier for scrolling speed and offset if window width is <=768px.
