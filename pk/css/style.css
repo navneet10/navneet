@@ -143,10 +143,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url(../img/hero-bg.jpg) center center;
-  background-size:cover ;
+  background: url(../img/hero-bg.jpg) center top;
+  /*background-size:cover ;*/
   position: relative;
   background-repeat: no-repeat;
+  background-size: auto 749px;
 }
 
 @media (min-width: 1024px) {
@@ -871,7 +872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
 	background: #f7f7f7;
-	padding-top: 80px;
+	padding-top: 90px;
 	padding-right: 0;
 	padding-bottom: 85px;
 	padding-left: 0;
@@ -1701,7 +1702,9 @@ section {
     width: 100%;
 	padding-top:30px;
   min-width: 1000px;
+  min-height: 100vh;
 }
+
 /*#contact{
 	height:90vh;
 }*/
