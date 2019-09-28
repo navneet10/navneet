@@ -871,7 +871,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
 	background: #f7f7f7;
-	padding-top: 90px;
+	padding-top: 80px;
 	padding-right: 0;
 	padding-bottom: 85px;
 	padding-left: 0;
@@ -1543,7 +1543,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .testimonials {
 	float: left;
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 .commontesti {
     float: left;
