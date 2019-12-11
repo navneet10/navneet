@@ -1,0 +1,21 @@
+/*
+
+Template: Delicious - Responsive Multi-purpose HTML5 Template
+Author:
+Design and Developed by:
+
+NOTE:  This file includes all plugins. If you don't want to use any plugins from below. You can simply remove that line from this file.
+
+*/
+@import url("bootstrap.min.css");
+@import url("animate.css");
+@import url("owl.theme.default.min.css");
+@import url("owl.carousel.css");
+@import url("prettyPhoto.css");
+@import url("themify-icons.css");
+@import url("font-awesome.min.css");
+@import url("coreNavigation-1.1.3.css");
+@import url("default-style.css");
+
+/*---nav style---*/
+@import url("nav-style.css");
